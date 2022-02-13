@@ -10,10 +10,10 @@
 header { 
     background-color: #5b9cca;
     height: 100px;
-    text-shadow: 3px 2px rgba(0, 0, 0, 0.445);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.596);
     padding-bottom: 15px;
     text-align: center;
-    box-shadow:  10px 3px 4px 0px rgba(0, 0, 0, 0.404);
+    box-shadow: -2px -3px 19px 3px rgb(0 0 0 / 60%);
 }
 header h1 {
     padding-top: 30px;
@@ -32,8 +32,11 @@ main {
     box-shadow: 3px 3px 20px 0px #05e60d6c;
 }
 h2 { 
-    padding: 15px;
+    padding: 5px;
     font-family: 'Slabo 27px', serifa;
+    background-image: linear-gradient(90deg, #07d9858c, #14f0d679);
+    margin: 5px;
+    border-radius: 5px;
 }
 p {
     padding: 5px 10px;
