@@ -1,4 +1,5 @@
 @charset "UTF- 8";
+@import url('https://fonts.googleapis.com/css2? family= Slabo+27px & display=swap');
 
 * {
     margin: 0;
@@ -10,10 +11,12 @@ header {
     background-color: #5b9cca;
     height: 100px;
     text-shadow: 3px 2px rgba(0, 0, 0, 0.445);
+    padding-bottom: 15px;
+    text-align: center;
+    box-shadow:  15px 5px 7px 0px rgba(0, 0, 0, 0.404);
 }
 header h1 {
     padding-top: 30px;
-    padding-left: 40px;
     color: #07D985;
 }
 body{
@@ -26,12 +29,15 @@ main {
     border-radius: 0px 0px 10px 10px;
     margin: auto;
     padding: 15px;
+    box-shadow: 3px 3px 20px 0px #05e60d6c;
 }
 h2 { 
     padding: 15px;
+    font-family: 'Slabo 27px', serifa;
 }
 p {
     padding: 5px 10px;
+    text-align: justify;
 }
 ul{
     padding-left: 30px;
@@ -39,7 +45,7 @@ ul{
 footer {
     background-color: #07F854;
     margin-top: 10px;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
